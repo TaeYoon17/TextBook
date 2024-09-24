@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var formData = new FormData();
+        formData.append("name","greem");
+        formData.append("item","orange");
+        formData.append("item","melon");
+        const xhr = new XMLHttpRequest();
+        xhr.send(formData);
+    </script>
+</body>
+</html>
